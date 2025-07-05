@@ -23,7 +23,7 @@ Fue todo tan fácil!
 
 En el primer arranque tan sólo configuré idioma y contraseña de root y... a funcionar!
 
-
+(Sección en construcción...)
 
 
 ## El salto a ZFS
@@ -61,6 +61,9 @@ Ahí sí me avisa de que se van a instalar y actualizar una cantidad obscena de 
 Me pregunto si me vale la pena, porque esto ya lo he intentado anteriormente y se rompió todo tras una noche actualizando.
 Finalmente decido que no porque actualizar qt6 implica actualizar Gimp y firefox y VLC y demasiadas cosas y es un cambio muy pesado.
 
+Volvemos al principio: sudo bectl activate recien-instalado
+
+(y salió mal, el equipo dejó de arrancar desde el USB despues de esta orden y tuve que crear el booteable de nuevo). 
 
 
 

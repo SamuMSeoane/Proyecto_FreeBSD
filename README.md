@@ -35,8 +35,35 @@ Así pues: nuevo USB y nada más arrancar guardé la instantánea:
 nomad@NomadBSD ~> sudo bectl create recien-instalado
 
 
+### El error de octopkg: c.upf-8
+
 Cada vez que arranco Octokpg para administrar actualizaciones me sale un error referido al archivo de configuración local que asume C.UPF-8 en lugar del idioma que yo uso que es es_ES.utf-8. Intenté corregirlo modificando el archivo profile.conf pero al arrancar el sistema no pasaba de la pantalla de selección de usuario (desconozco el motivo) así que tocó acceder en modo usuario único y probar la recuperación de la imagen: 
 nomad@NomadBSD ~> sudo bectl activate recien-instalado
+
+He renunciado a continuar esta guerra. 
+
+### Actualizar a octopkg-0.4.1 (SPOILER: NO)
+
+La instalación base viene con octopkg-0.3.3 y él mismo te indica que está desactualizado. Si le ordenas actualizarse, renueva dos paquetes: 
+el propio octophk y qt-sudo-2.0.1
+
+Pero tras una supuesta instalación exitosa (con reinicio de por medio, que es cuando luego rompen las cosas), va el cabrito y no arranca.
+Al intentar arrancarlo desde terminar obtienes un poco más de información: 
+nomad@NomadBSD ~> octopkg 
+ld-elf.so.1: /usr/local/lib/qt6/libQt6Core.so.6: version Qt_6.8 required by /usr/local/bin/octopkg not found
+
+En el sistema viene instalado qt6-base-6.7.2 
+
+Como tengo mi BE "recién-instalado" para revertir cagadas, me lanzo a actualizar esto. Son las 20:23.
+así que:  sudo pkg upgrade -f qt6\* y a ver qué pasa... 
+no funciona y recurro a: sudo pkg install qt6
+Ahí sí me avisa de que se van a instalar y actualizar una cantidad obscena de paquetes.
+Me pregunto si me vale la pena, porque esto ya lo he intentado anteriormente y se rompió todo tras una noche actualizando.
+Finalmente decido que no porque actualizar qt6 implica actualizar Gimp y firefox y VLC y demasiadas cosas y es un cambio muy pesado.
+
+
+
+
 
 
 

@@ -42,7 +42,7 @@ nomad@NomadBSD ~> sudo bectl activate recien-instalado
 
 He renunciado a continuar esta guerra. 
 
-### Actualizar a octopkg-0.4.1 (SPOILER: NO)
+### Actualizar a octopkg-0.4.1 
 
 La instalación base viene con octopkg-0.3.3 y él mismo te indica que está desactualizado. Si le ordenas actualizarse, renueva dos paquetes: 
 el propio octophk y qt-sudo-2.0.1
@@ -62,8 +62,14 @@ Me pregunto si me vale la pena, porque esto ya lo he intentado anteriormente y s
 Finalmente decido que no porque actualizar qt6 implica actualizar Gimp y firefox y VLC y demasiadas cosas y es un cambio muy pesado.
 
 Volvemos al principio: sudo bectl activate recien-instalado
-
 (y salió mal, el equipo dejó de arrancar desde el USB despues de esta orden y tuve que crear el booteable de nuevo). 
+
+No tengo muy claro qué pasó aquí: en un nuevo reinicio el USB sí arrancó pero resulta que en la instantánea que yo quería restaurar ahora tenía el octopkg actualizado. Por no sé qué idea loca dije: de perdidos al río, vamos a actualizar Firefox.
+Y lo hice desde consola, claro.
+Pues bien, fue rapidísimo, terminó exitosamente... y tras esta actualización el octopkg funcionó!!!
+Y además mucho más rápido y fluido que cuando tenía instalada la versión anterior.
+
+Toca reiniciar, a ver si todo sigue funcionando. 
 
 
 

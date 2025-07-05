@@ -31,7 +31,12 @@ En el primer arranque tan sólo configuré idioma y contraseña de root y... a f
 Siguiendo los consejos de un participante en un canal de Telegram, empecé de nuevo pero esta vez con la versión que lleva el sistema de archivos ZFS. 
 Esto me permitiría sacar instantáneas del sistema antes de cada instalación arriesgada para recuperar el sistema en caso de fallar todo utilizando "Boot Environment".
 
+Así pues: nuevo USB y nada más arrancar guardé la instantánea: 
+nomad@NomadBSD ~> sudo bectl create recien-instalado
 
+
+Cada vez que arranco Octokpg para administrar actualizaciones me sale un error referido al archivo de configuración local que asume C.UPF-8 en lugar del idioma que yo uso que es es_ES.utf-8. Intenté corregirlo modificando el archivo profile.conf pero al arrancar el sistema no pasaba de la pantalla de selección de usuario (desconozco el motivo) así que tocó acceder en modo usuario único y probar la recuperación de la imagen: 
+nomad@NomadBSD ~> sudo bectl activate recien-instalado
 
 
 

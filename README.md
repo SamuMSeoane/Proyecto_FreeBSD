@@ -64,13 +64,21 @@ Finalmente decido que no porque actualizar qt6 implica actualizar Gimp y firefox
 Volvemos al principio: sudo bectl activate recien-instalado
 (y salió mal, el equipo dejó de arrancar desde el USB despues de esta orden y tuve que crear el booteable de nuevo). 
 
+### Actualizar Firefox a 140.0.2,2
+
 No tengo muy claro qué pasó aquí: en un nuevo reinicio el USB sí arrancó pero resulta que en la instantánea que yo quería restaurar ahora tenía el octopkg actualizado. Por no sé qué idea loca dije: de perdidos al río, vamos a actualizar Firefox.
 Y lo hice desde consola, claro.
 Pues bien, fue rapidísimo, terminó exitosamente... y tras esta actualización el octopkg funcionó!!!
 Y además mucho más rápido y fluido que cuando tenía instalada la versión anterior.
 
-Toca reiniciar, a ver si todo sigue funcionando. 
 
+### Actualizar xfce4-desktop a 4.20.1
+
+Trasteando por el octo veo que el gestor de escritorio y toda su familia están en la versión 4.18
+Así que un poco a lo loco (pero desde la consola) lo mando actualizar antes de reiniciar. 
+Lo hace rápido con algún mensaje de error.
+
+Vamos a reiniciar, a ver qué pasa. 
 
 
 

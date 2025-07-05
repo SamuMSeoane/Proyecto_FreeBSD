@@ -2,7 +2,7 @@
 Conjunto de experiencias de un novato explorando un sistema Unix-like
 
 ## Introducción
--------------
+
 
 Cuando los mensajes de actualización a Windows11 se pusieron especialmente pesados, y no dejaban de repetirme que mi equipo no era apto y que Windows 10 dejaría de tener soporte, decidí buscar alternativas en el mundo Linux.
 Siempre he utilizado sistemas de Microsoft, desde el MS-DOS hasta el comienzo de Windows 3.1 y no precisamente por fidelidad a la marca sino por no buscar más allá.

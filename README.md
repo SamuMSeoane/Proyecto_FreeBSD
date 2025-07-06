@@ -78,9 +78,5 @@ Trasteando por el octo veo que el gestor de escritorio y toda su familia están 
 Así que un poco a lo loco (pero desde la consola) lo mando actualizar antes de reiniciar. 
 Lo hace rápido con algún mensaje de error.
 
-Vamos a reiniciar, a ver qué pasa. 
-
-
-
-
-
+Vamos a reiniciar, a ver qué pasa... ha sido un fracaso.
+Ya no arranca el entorno gráfico.

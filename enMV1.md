@@ -36,6 +36,8 @@ El siguiente paso (desde línea de comandos) es guardar un  Boot Environment ant
 
 ### Primeras actualizaciones
 
+#### Actualizo pkg
+
 Lo primero que se actualiza al pedir un upgrade es el propio paquete pkg:
 ```
 New version of pkg detected; it needs to be installed first.
@@ -48,8 +50,10 @@ Number of packages to be upgraded: 1
 
 12 MiB to be downloaded.
 ```
+El sistema se mantiene ok. 
 
-## Actualizo Firefox 
+
+#### Actualizo Firefox 
 ```
 sudo IGNORE_OSVERSION=yes pkg upgrade firefox-esr
 ```

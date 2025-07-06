@@ -31,3 +31,29 @@ Arrancar la máquina y ya todo lo demás se parece muchísimo a cuando lo haces 
 
 Mi primer paso, es crear un usuario básico.
 
+El siguiente paso (desde línea de comandos) es guardar un  Boot Environment antes de hacer nuevos cambios.
+
+
+### Primeras actualizaciones
+
+Lo primero que se actualiza al pedir un upgrade es el propio paquete pkg:
+```
+New version of pkg detected; it needs to be installed first.
+The following 1 package(s) will be affected (of 0 checked):
+
+Installed packages to be UPGRADED:
+	pkg: 1.21.3 -> 2.2.0
+
+Number of packages to be upgraded: 1
+
+12 MiB to be downloaded.
+```
+
+## Actualizo Firefox 
+```
+sudo IGNORE_OSVERSION=yes pkg upgrade firefox-esr
+```
+
+Tras una actualización bastante grande, al reiniciar se ha roto.
+
+

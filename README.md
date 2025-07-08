@@ -42,7 +42,7 @@ nomad@NomadBSD ~> sudo bectl activate recien-instalado
 
 He renunciado a continuar esta guerra. 
 
-### Actualizar a octopkg-0.4.1 
+### Actualizar a octopkg-0.4.1 (spoiler: sale mal)
 
 La instalación base viene con octopkg-0.3.3 y él mismo te indica que está desactualizado. Si le ordenas actualizarse, renueva dos paquetes: 
 el propio octophk y qt-sudo-2.0.1
@@ -72,7 +72,7 @@ Pues bien, fue rapidísimo, terminó exitosamente... y tras esta actualización 
 Y además mucho más rápido y fluido que cuando tenía instalada la versión anterior.
 
 
-### Actualizar xfce4-desktop a 4.20.1
+### Actualizar xfce4-desktop a 4.20.1 (spoiler: sale mal)
 
 Trasteando por el octo veo que el gestor de escritorio y toda su familia están en la versión 4.18
 Así que un poco a lo loco (pero desde la consola) lo mando actualizar antes de reiniciar. 

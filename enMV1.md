@@ -61,3 +61,8 @@ sudo IGNORE_OSVERSION=yes pkg upgrade firefox-esr
 Tras una actualización bastante grande, al reiniciar se ha roto.
 
 
+#### Instalo Vivaldi
+
+A través de la opción _"Linux Browser Installer GUI"_ en el menú Internet, se pueden instalar varios navegadores basados en Chromium.
+Hago la prueba instalando Vivaldi (instala la versión 7.5.3735.44). Tras un cambio de usuario y un reinicio constato que sigue funcionando.
+Según comenta otro usuario del canal de Telegram (t.me/NomadBSD), con Brave la instalación también funciona. 

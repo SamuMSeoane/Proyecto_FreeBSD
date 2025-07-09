@@ -34,7 +34,13 @@ Mi primer paso, es crear un usuario básico.
 El siguiente paso (desde línea de comandos) es guardar un  Boot Environment antes de hacer nuevos cambios.
 
 
-### Primeras actualizaciones
+### Instalando y actualizando
+
+#### Procedimiento
+
+Aprovechándome de la capacidad de guardar Boot Environments, trabajo sobre un BE principal (_current_), pero tras cada actuación:
+* Si funciona, guardo un nuevo BE con el hito exitoso (aunque me mantengo en el _current_).
+* Si no funciona, activo el último BE exitoso, reinicio con él, borro el _current_ con el fallo, creo un nuevo _current_, lo activo y reinicio con él. 
 
 #### Actualizo pkg
 
@@ -53,7 +59,7 @@ Number of packages to be upgraded: 1
 El sistema se mantiene ok. 
 
 
-#### Actualizo Firefox 
+#### Actualizo Firefox (Falla)
 ```
 sudo IGNORE_OSVERSION=yes pkg upgrade firefox-esr
 ```

@@ -72,3 +72,14 @@ Tras una actualización bastante grande, al reiniciar se ha roto.
 A través de la opción _"Linux Browser Installer GUI"_ en el menú Internet, se pueden instalar varios navegadores basados en Chromium.
 Hago la prueba instalando Vivaldi (instala la versión 7.5.3735.44). Tras un cambio de usuario y un reinicio constato que sigue funcionando.
 Según comenta otro usuario del [canal de Telegram](https://t.me/NomadBSD), con Brave la instalación también funciona. 
+
+
+#### Actualizo Pidgin 2.14.13 a 2.14.14
+
+Pruebo esta vez a actualizar desde octopkg (y me da la opción de guardar una BE). 
+Pero se vuelve a romper el inicio con GUI. 
+No queda otra que recurrir al comando 
+```
+startxfce4
+```
+para relanzarlo. 

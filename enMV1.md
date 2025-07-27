@@ -33,6 +33,12 @@ Mi primer paso, es crear un usuario básico.
 
 El siguiente paso (desde línea de comandos) es guardar un  Boot Environment antes de hacer nuevos cambios.
 
+```
+~> bectl list   # para ver los B.E. guardados
+~> bectl create __nombre__  # para crear un B.E. copia del estado actual
+~> bectl activate __nombre__ # para activar el B.E. que se cargará en el siguiente reinicio
+```
+
 
 ### Instalando y actualizando
 

@@ -11,4 +11,6 @@ Sigo los pasos probados:
   ```
   pero NO actualizo todo, sólo pkg
 
+* Instalo el navegador Vivaldi a través de la opción Internet > Linux Browser Installer GUI  
+
   

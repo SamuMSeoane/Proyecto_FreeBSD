@@ -51,12 +51,17 @@ Vamos adelante con la instalación de VSCode desde los ports
 que arroja este error pero parece seguir adelante: 
 _"pkg: sqlite error while executing iterator in file pkgdb_iterator.c:1090: database disk image is malformed"_
 
-
-
+Esto supone un upgrade:
+```
+Installed packages to be UPGRADED:
+	git: 2.45.2_1 -> 2.50.1
+```
+y decido no hacerlo por si acaso. 
+```
 # git clone https://git.FreeBSD.org/ports.git /usr/ports
 # git -C /usr/ports pull
 # cd /usr/ports/editors/vscode
 # make install clean
 ```
-
+Me he encontrado más problemas que no sé a qué se deben ni cómo solucionarlos así que lo dejo por hoy. 
 	

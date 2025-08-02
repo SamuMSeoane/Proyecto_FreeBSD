@@ -41,5 +41,22 @@ Antes de hacerlo, gestión de Boot Environments:
 * creo un entorno copia del funcional (bectl __create__ entorno_pruebas) y lo activo para trabajar sobre él desde el siguiente reinicio.
 De esta manera siempre trabajo sobre un entorno de pruebas y voy salvando los avances exitosos.
 
+# 02/08/2025
+
+Vamos adelante con la instalación de VSCode desde los ports
+
+```
+# pkg install git
+```
+que arroja este error pero parece seguir adelante: 
+_"pkg: sqlite error while executing iterator in file pkgdb_iterator.c:1090: database disk image is malformed"_
+
+
+
+# git clone https://git.FreeBSD.org/ports.git /usr/ports
+# git -C /usr/ports pull
+# cd /usr/ports/editors/vscode
+# make install clean
+```
 
 	
